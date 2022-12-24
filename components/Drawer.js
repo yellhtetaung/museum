@@ -17,6 +17,7 @@ export default function Drawer() {
         headerShown: false,
         drawerActiveTintColor: "#F57328",
       }}
+      initialRouteName={Home}
     >
       <Drawer.Screen
         name="Home"

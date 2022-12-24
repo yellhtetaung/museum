@@ -13,6 +13,7 @@ const NativeStack = () => {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{ headerShown: false, gestureEnabled: false }}
+        initialRouteName={SignIn}
       >
         <Stack.Screen name="SignIn" component={SignIn} />
         <Stack.Screen name="MuseumPool" component={Drawer} />
