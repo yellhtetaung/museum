@@ -1,7 +1,7 @@
 import React from "react";
 import { TouchableOpacity } from "react-native";
-import { Flex, HStack, IconButton, Text } from "@react-native-material/core";
-import { Card, Title, Paragraph } from "react-native-paper";
+import { Flex, IconButton, Text } from "@react-native-material/core";
+import { Card, Title } from "react-native-paper";
 import Icon from "@expo/vector-icons/MaterialCommunityIcons";
 
 const CardComponent = ({
