@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Dimensions } from "react-native";
-import { Flex, AppBar, IconButton, Text } from "@react-native-material/core";
+import { Flex, AppBar, IconButton } from "@react-native-material/core";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import Icon from "@expo/vector-icons/MaterialCommunityIcons";
 
